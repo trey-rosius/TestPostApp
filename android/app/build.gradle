@@ -22,11 +22,9 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
-<<<<<<< HEAD
 
-=======
 apply plugin: 'kotlin-android'
->>>>>>> b97c7beb5363383dbdf54eaa2721376d29c28e79
+
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
@@ -48,10 +46,8 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-<<<<<<< HEAD
         multiDexEnabled true
-=======
->>>>>>> b97c7beb5363383dbdf54eaa2721376d29c28e79
+
     }
 
     buildTypes {
